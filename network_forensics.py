@@ -4,7 +4,7 @@ from datetime import datetime
 from termcolor import colored
 from transformers import pipeline
 from pyshark.capture.capture import TSharkCrashException
-
+print(f"hi guyss")
 # Load Hugging Face model (Use a smaller model for faster performance)
 classifier = pipeline('zero-shot-classification', model='facebook/bart-large-mnli')
 
